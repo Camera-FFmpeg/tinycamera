@@ -1,0 +1,10 @@
+# CameraFree and Hidden IPs cam show
+Version FFmpeg-4.2.1_arm64-v8a
+Input  : /storage/emulated/0/FFMPEG/sample.mp4
+Output : /storage/emulated/0/FFMPEG/sample
+Resolution : 1423×720
+Template : VideoMP4
+■ -c:v libopenh264 -q:v 5
+   -c:a aac -ab 128k -ar
+   44100
+■------------------------
